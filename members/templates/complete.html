@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'complete.css' %}">
+  <title>Login</title>
+</head>
+<body>
+  <header class="container">
+    <div class="heading">
+      AURA 2024
+    </div>
+  </header>
+  <br>
+  <section class="card">
+    <p>Congratulations, quest is completed. Logout to submit answers</p>
+    <img src="{% static 'meme.jpg' %}" alt="captain jack sparrow">
+    <p id="under">Good Luck Skipper!!!</p>
+  </section>
+  <div class="complete_btn_div">
+  <a href="{% url 'logout' %}" class="complete_btn">
+    Logout
+  </a>
+</div>
+</body>
+</html>

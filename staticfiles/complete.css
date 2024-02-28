@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Metal Mania&display=swap');
+
+body {
+    background-image: url(home_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: "Metal Mania";
+}
+
+.heading {
+    width: 10rem;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+}
+
+.container {
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: #310e04;
+    /* background: linear-gradient(315deg, #AB6730, #CC9F73); */
+}
+
+.name {
+    padding: 2rem;
+}
+
+.name_box {
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 3px 3px lightgray;
+    width: 14rem;
+    height: 1.5rem;
+    margin-left: 0.2rem;
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    float: right;
+    margin-right: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background: #AB6730;
+    background: linear-gradient(315deg, #AB6730, #CC9F73);
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+button:hover {
+    background: #242C36;
+    background: linear-gradient(315deg, #242C36, #A66260);
+}
+
+label {
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(46, 27, 5, 0.7);
+    width: 32rem;
+    height: 18rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: inset 0 6px 6px #A9775A;
+
+}
+
+.card p {
+    font-family: "Metal Mania";
+    font-size: xx-large;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.card img {
+    max-height: 50%;
+    border-color: 4px #242C36;
+}
+
+#under {
+    font-family: "Metal Mania";
+    color: white;
+    font-size: 1.6rem;
+}
+.complete_btn_div{
+    width: 100%;
+    display: flex;
+    padding-top:1rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.complete_btn{
+    background-color: #310e04;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+.complete_btn:hover{
+    transform: scale(1.05);
+}
